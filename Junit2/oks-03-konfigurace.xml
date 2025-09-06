@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="ERROR">
+
+    <Properties>
+        <Property name="format">[%level] - %msg%n</Property>
+        <Property name="soubor1">oks-03-log</Property>
+        <Property name="pripona">.txt</Property>
+        <Property name="soubor1c">${soubor1}${pripona}</Property>
+    </Properties>
+
+    <Appenders>
+        <File name="${soubor1}${pripona}" fileName="oks-03-log.txt" append="false" immediateFlush="true">
+            <PatternLayout>
+                <Pattern>${format}</Pattern>
+            </PatternLayout>
+            <!--<ThresholdFilter level="INFO" onMatch="ACCEPT"/>-->
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="oks03.Kontrola_Prj_03" level="INFO" additivity="true">
+            <AppenderRef ref="${soubor1c}"/>
+        </Logger>
+        <Root level="ERROR">
+        </Root>
+    </Loggers>
+
+</Configuration>
