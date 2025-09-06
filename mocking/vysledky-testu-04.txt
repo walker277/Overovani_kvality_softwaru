@@ -1,0 +1,6 @@
+Byly spusteny 4 testy:
+getSeznamTypuStudia_bakalari() : true
+getSeznamTypuStudia_doktorandi() : true
+getSeznamTypuStudia_navazujici() : true
+vytvorSeznamChybnychFormatu() : true
+Selhalo 0 testu:
