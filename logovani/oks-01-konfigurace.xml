@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="ERROR">
+
+    <!--<Properties>
+        <Property name="format">[%level - %logger{1}.%method()] - %msg%n</Property>
+        <Property name="s1">oks-01-log-info</Property>
+        <Property name="s2">oks-01-log-trace</Property>
+        <Property name="s3">oks-01-log-debug</Property>
+        <Property name="pripona">.txt</Property>
+        <Property name="s11">%{s1}%{pripona}</Property>
+        <Property name="s12">%{s2}%{pripona}</Property>
+        <Property name="s13">%{s3}%{pripona}</Property>
+    </Properties>
+
+    <Appenders>
+        <File name="InfoFile" fileName="${s11}" intermediateFlush="true" append="true">
+            <PatternLayout>
+                <Pattern>${format}</Pattern>
+            </PatternLayout>
+        </File>
+        <File name="TraceFile" fileName="${s12}" intermediateFlush="true" append="false">
+            <PatternLayout>
+                <Pattern>${format}</Pattern>
+            </PatternLayout>
+        </File>
+        <File name="DebugFile" fileName="${s13}" intermediateFlush="true" append="false">
+            <PatternLayout>
+                <Pattern>${format}</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Root level="ALL">
+        </Root>
+        <Logger name="oks01.Hlavni" level="info" additivity="false">
+            <AppenderRef ref="InfoFile"/>
+        </Logger>
+        <Logger name="oks01.Generator" level="trace" additivity="false">
+            <AppenderRef ref="TraceFile"/>
+        </Logger>
+        <Logger name="oks01.OsobniCislo" level="trace" additivity="false">
+            <AppenderRef ref="DebugFile"/>
+        </Logger>
+    </Loggers>-->
+
+        <Properties>
+          <Property name="format">[%level - %logger{1}.%method()] - %msg%n</Property>
+          <Property name="soubor1">oks-01-log-info</Property>
+          <Property name="soubor2">oks-01-log-trace</Property>
+          <Property name="soubor3">oks-01-log-debug</Property>
+          <Property name="pripona">.txt</Property>
+          <Property name="soubor1c">${soubor1}${pripona}</Property>
+          <Property name="soubor2c">${soubor2}${pripona}</Property>
+          <Property name="soubor3c">${soubor3}${pripona}</Property>
+        </Properties>
+
+        <Appenders>
+          <File name="${soubor1}${pripona}" fileName="oks-01-log-info.txt" append="true" immediateFlush="true">
+            <PatternLayout>
+              <Pattern>${format}</Pattern>
+            </PatternLayout>
+            <ThresholdFilter level="INFO" onMatch="ACCEPT"/>
+          </File>
+
+          <File name="${soubor2}${pripona}" fileName="oks-01-log-debug.txt" append="false" immediateFlush="true">
+            <PatternLayout>
+              <Pattern>${format}</Pattern>
+            </PatternLayout>
+            <ThresholdFilter level="DEBUG" onMismatch="deny" onMatch="ACCEPT"/>
+          </File>
+
+          <File name="${soubor3}${pripona}" fileName="oks-01-log-trace.txt" append="false" immediateFlush="true">
+            <PatternLayout>
+              <Pattern>${format}</Pattern>
+            </PatternLayout>
+          </File>
+
+        </Appenders>
+        <Loggers>
+          <Logger name="oks01.Hlavni" level="INFO" additivity="false">
+            <AppenderRef ref="${soubor1c}"/>
+          </Logger>
+          <Logger name="oks01.Generator" level="TRACE" additivity="false">
+            <AppenderRef ref="${soubor1c}"/>
+            <AppenderRef ref="${soubor2c}"/>
+          </Logger>
+          <Logger name="oks01.OsobniCislo" level="TRACE" additivity="false">
+            <AppenderRef ref="${soubor2c}"/>
+            <AppenderRef ref="${soubor3c}"/>
+          </Logger>
+          <Root level="ERROR">
+          </Root>
+        </Loggers>
+</Configuration>
