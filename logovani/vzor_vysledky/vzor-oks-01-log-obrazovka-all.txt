@@ -1,0 +1,562 @@
+[INFO - Hlavni.main()] - Zacatek programu
+[INFO - Hlavni.parametryPrikazoveRadky()] - zpracovavany soubor: priklady-oks-01-1.txt
+[INFO - Hlavni.parametryPrikazoveRadky()] - zpracovavana fakulta: fav
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: # formát příjmení, jméno, zkratka fakulty, rok nástupu, zkratka typu studia, zkratka formy studia, nepovinne
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: # bakaláři
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Novák, Josef, fav, 2014, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: NOVÁK
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Josef
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Novák, Josef, fav, 2014, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Aldus, Pavel, fav, 2014, B, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: ALDUS
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Aldus, Pavel, fav, 2014, B, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Želé, Jakub, fav, 2014, b, P, i
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: ŽELÉ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Jakub
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.zpracujNepovinne()] - nepovinne: I
+[TRACE - OsobniCislo.<init>()] - A14BxxxxPI
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Želé, Jakub, fav, 2014, b, P, i
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Divoký, René, fav, 2014, B, P, I, něco navíc
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: DIVOKÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: René
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.zpracujNepovinne()] - nepovinne: I
+[TRACE - OsobniCislo.<init>()] - A14BxxxxPI
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Divoký, René, fav, 2014, B, P, I, něco navíc
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: 
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: # navazující
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Platnost, Karel, fav, 2014, n, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLATNOST
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Karel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Platnost, Karel, fav, 2014, n, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Plát, Josef, Fav, 2014, n, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLÁT
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Josef
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plát, Josef, Fav, 2014, n, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Plátno, Miloš, FAv, 2014, n, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLÁTNO
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Miloš
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plátno, Miloš, FAv, 2014, n, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Plankton, Richard, FAV, 2014, n, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLANKTON
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Richard
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plankton, Richard, FAV, 2014, n, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Plachta, Jiří, fav, 2014, N, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLACHTA
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Jiří
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plachta, Jiří, fav, 2014, N, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Plášť, Rudolf, fav, 2014, n, P
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLÁŠŤ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Rudolf
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plášť, Rudolf, fav, 2014, n, P
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Plahočení, Petr, fav, 2014, n, k
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLAHOČENÍ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Petr
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: K
+[TRACE - OsobniCislo.<init>()] - A14NxxxxK
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plahočení, Petr, fav, 2014, n, k
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Plánička, Jan, fav, 2014, n, K
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLÁNIČKA
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Jan
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: K
+[TRACE - OsobniCislo.<init>()] - A14NxxxxK
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plánička, Jan, fav, 2014, n, K
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Platno, Václav, fav, 2014, N, k
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLATNO
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Václav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: K
+[TRACE - OsobniCislo.<init>()] - A14NxxxxK
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Platno, Václav, fav, 2014, N, k
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Placebo, Jindřich, fav, 2014, N, K
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLACEBO
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Jindřich
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: K
+[TRACE - OsobniCislo.<init>()] - A14NxxxxK
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Placebo, Jindřich, fav, 2014, N, K
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Plaňka, David, fav, 2014, n, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLAŇKA
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: David
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plaňka, David, fav, 2014, n, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Plat, Michal, fav, 2014, n, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLAT
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Michal
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plat, Michal, fav, 2014, n, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Plánička, Jaroslav, fav, 2014, n, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLÁNIČKA
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Jaroslav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Plánička, Jaroslav, fav, 2014, n, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Platnost, Alfréd, fav, 2014, n, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PLATNOST
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Alfréd
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: N
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14NxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Platnost, Alfréd, fav, 2014, n, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: 
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: # doktorandi
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Dlouhý, Roman, fav, 2014, p, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: DLOUHÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Roman
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: P
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14PxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Dlouhý, Roman, fav, 2014, p, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Široký, Stanislav, fav, 2014, P, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: ŠIROKÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Stanislav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: P
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14PxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Široký, Stanislav, fav, 2014, P, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Bystrozraký, Martin, fav, 2014, P, P
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: BYSTROZRAKÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Martin
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: P
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14PxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Bystrozraký, Martin, fav, 2014, P, P
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: 
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: # magistři z FPR
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Právník, René, FPR, 2014, m, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PRÁVNÍK
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: René
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: R
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: M
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - R14MxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Právník, René, FPR, 2014, m, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Právník, Daniel, FPR, 2014, M, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PRÁVNÍK
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Daniel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: R
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: M
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - R14MxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Právník, Daniel, FPR, 2014, M, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Právník, Alois, FPR, 2014, M, P, I
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PRÁVNÍK
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Alois
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: R
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: M
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.zpracujNepovinne()] - nepovinne: I
+[TRACE - OsobniCislo.<init>()] - R14MxxxxPI
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Právník, Alois, FPR, 2014, M, P, I
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: 
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: # bakaláři z jiných fakult správně zadaní
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Strojař, Pavel, fst, 2014, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: STROJAŘ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: S
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - S14BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Strojař, Pavel, fst, 2014, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Pedagog, Pavel, FPE, 2014, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: PEDAGOG
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: P
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - P14BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Pedagog, Pavel, FPE, 2014, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Elektrikář, Pavel, fel, 2014, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: ELEKTRIKÁŘ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: E
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - E14BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Elektrikář, Pavel, fel, 2014, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Ekonom, Pavel, fEk, 2014, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: EKONOM
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: K
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - K14BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Ekonom, Pavel, fEk, 2014, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Umělec, Pavel, fDU, 2014, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: UMĚLEC
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: D
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - D14BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Umělec, Pavel, fDU, 2014, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Zdravotník, Pavel, fzS, 2014, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: ZDRAVOTNÍK
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: Z
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - Z14BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Zdravotník, Pavel, fzS, 2014, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Filosof, Pavel, fF, 2014, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: FILOSOF
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pavel
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: F
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - F14BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Filosof, Pavel, fF, 2014, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: 
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: # chybně zadané
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Radomil, fuj, 2014, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Radomil
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - ?14BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Radomil, fuj, 2014, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Dalimil, fav, 2014, x, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Dalimil
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A14?xxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Dalimil, fav, 2014, x, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Čestmír, fav, 2014, b, x
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Čestmír
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.<init>()] - A14Bxxxx?
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Čestmír, fav, 2014, b, x
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Vladan, fuj, 2014, x, x
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Vladan
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.<init>()] - ?14?xxxx?
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Vladan, fuj, 2014, x, x
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Břetislav, fav, 2014, b
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Břetislav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.<init>()] - A14Bxxxx?
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Břetislav, fav, 2014, b
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Pravoslav, fav, 2014
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Pravoslav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu: 14
+[TRACE - OsobniCislo.<init>()] - A14?xxxx?
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Pravoslav, fav, 2014
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Radovan, fav
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Radovan
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - neni uveden rok nastupu
+[TRACE - OsobniCislo.<init>()] - A??xxxx?
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Radovan, fav
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Ctirad
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Ctirad
+[TRACE - OsobniCislo.zpracujRokNastupu()] - neni uveden rok nastupu
+[TRACE - OsobniCislo.<init>()] - ???xxxx?
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Ctirad
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujRokNastupu()] - neni uveden rok nastupu
+[TRACE - OsobniCislo.<init>()] - ???xxxx?
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Drahoslav, fav, 14, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Drahoslav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu neni ctyrciferny: 14
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A?BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Drahoslav, fav, 14, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Vladislav, fav, 0x2014, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Vladislav
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu neni ctyrciferny: 0X2014
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A?BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Vladislav, fav, 0x2014, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Sebastian, fav, 02014, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Sebastian
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu neni ctyrciferny: 02014
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A?BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Sebastian, fav, 02014, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: Chybný, Slavomír, fav, 4, b, p
+[TRACE - OsobniCislo.zpracujPrijmeni()] - prijmeni: CHYBNÝ
+[TRACE - OsobniCislo.zpracujJmeno()] - jmeno: Slavomír
+[TRACE - OsobniCislo.zpracujFakulta()] - fakulta: A
+[TRACE - OsobniCislo.zpracujRokNastupu()] - rok nastupu neni ctyrciferny: 4
+[TRACE - OsobniCislo.zpracujTypStudia()] - typ studia: B
+[TRACE - OsobniCislo.zpracujFormaStudia()] - forma studia: P
+[TRACE - OsobniCislo.<init>()] - A?BxxxxP
+[DEBUG - Generator.nactiVsechnaOsobniCisla()] - platna radka souboru: Chybný, Slavomír, fav, 4, b, p
+[TRACE - Generator.nactiVsechnaOsobniCisla()] - radka souboru: 
+[INFO - Generator.zpracovani()] - nacteno osobnich cisel: 44
+[INFO - Generator.pripravSkupinyARoztridDoNich()] - nalezeny znak fakulty: A
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14BxxxxP <= NOVÁK Josef
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: BAKALARSKY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14BxxxxP <= ALDUS Pavel
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: BAKALARSKY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14BxxxxPI <= ŽELÉ Jakub
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: BAKALARSKY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14BxxxxPI <= DIVOKÝ René
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: BAKALARSKY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLATNOST Karel
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLÁT Josef
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLÁTNO Miloš
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLANKTON Richard
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLACHTA Jiří
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLÁŠŤ Rudolf
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxK <= PLAHOČENÍ Petr
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxK <= PLÁNIČKA Jan
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxK <= PLATNO Václav
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxK <= PLACEBO Jindřich
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLAŇKA David
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLAT Michal
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLÁNIČKA Jaroslav
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14NxxxxP <= PLATNOST Alfréd
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NAVAZUJICI
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14PxxxxP <= DLOUHÝ Roman
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: DOKTORSKY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14PxxxxP <= ŠIROKÝ Stanislav
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: DOKTORSKY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14PxxxxP <= BYSTROZRAKÝ Martin
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: DOKTORSKY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: R14MxxxxP <= PRÁVNÍK René
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: R14MxxxxP <= PRÁVNÍK Daniel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: R14MxxxxPI <= PRÁVNÍK Alois
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: S14BxxxxP <= STROJAŘ Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: P14BxxxxP <= PEDAGOG Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: E14BxxxxP <= ELEKTRIKÁŘ Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: K14BxxxxP <= EKONOM Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: D14BxxxxP <= UMĚLEC Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: Z14BxxxxP <= ZDRAVOTNÍK Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: F14BxxxxP <= FILOSOF Pavel
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: ?14BxxxxP <= CHYBNÝ Radomil (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14?xxxxP <= CHYBNÝ Dalimil (chybně zadáno)
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NEPLATNY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14Bxxxx? <= CHYBNÝ Čestmír (chybně zadáno)
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NEPLATNY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: ?14?xxxx? <= CHYBNÝ Vladan (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14Bxxxx? <= CHYBNÝ Břetislav (chybně zadáno)
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NEPLATNY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A14?xxxx? <= CHYBNÝ Pravoslav (chybně zadáno)
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NEPLATNY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A??xxxx? <= CHYBNÝ Radovan (chybně zadáno)
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NEPLATNY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: ???xxxx? <= CHYBNÝ Ctirad (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: ???xxxx? <= CHYBNÝ ? (chybně zadáno)
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A?BxxxxP <= CHYBNÝ Drahoslav (chybně zadáno)
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NEPLATNY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A?BxxxxP <= CHYBNÝ Vladislav (chybně zadáno)
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NEPLATNY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A?BxxxxP <= CHYBNÝ Sebastian (chybně zadáno)
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NEPLATNY
+[DEBUG - Generator.pripravSkupinyARoztridDoNich()] - zpracovavany student: A?BxxxxP <= CHYBNÝ Slavomír (chybně zadáno)
+[TRACE - Generator.pripravSkupinyARoztridDoNich()] - prirazen do skupiny: NEPLATNY
+[INFO - Generator.zpracovani()] - chybnych osobnich cisel: 9
+[INFO - Generator.generujVyslednaOsobniCisla()] - razeni podle abecedy
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: BAKALARSKY
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0001P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0001
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0002PI
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0002
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0003P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0003
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14B0004PI
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0004
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: NAVAZUJICI
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0001K
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0001
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0002K
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0002
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0003P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0003
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0004K
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0004
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0005P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0005
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0006P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0006
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0007P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0007
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0008P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0008
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0009P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0009
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0010P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0010
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0011K
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0011
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0012P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0012
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0013P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0013
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14N0014P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0014
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: DOKTORSKY
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14P0001P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0001
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14P0002P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0002
+[DEBUG - OsobniCislo.generujOsobniCislo()] - A14P0003P
+[TRACE - Generator.generujVyslednaOsobniCisla()] - prirazeno poradove cislo: 0003
+[INFO - Generator.generujVyslednaOsobniCisla()] - generovani poradovych cisel pro skupinu: MAGISTERSKY
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Bakalářský
+[TRACE - Generator.zapisSkupinu()] - A14B0001P <= ALDUS Pavel
+[TRACE - Generator.zapisSkupinu()] - A14B0002PI <= DIVOKÝ René
+[TRACE - Generator.zapisSkupinu()] - A14B0003P <= NOVÁK Josef
+[TRACE - Generator.zapisSkupinu()] - A14B0004PI <= ŽELÉ Jakub
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Bakalářský' : 4
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Navazující
+[TRACE - Generator.zapisSkupinu()] - A14N0001K <= PLACEBO Jindřich
+[TRACE - Generator.zapisSkupinu()] - A14N0002K <= PLAHOČENÍ Petr
+[TRACE - Generator.zapisSkupinu()] - A14N0003P <= PLACHTA Jiří
+[TRACE - Generator.zapisSkupinu()] - A14N0004K <= PLÁNIČKA Jan
+[TRACE - Generator.zapisSkupinu()] - A14N0005P <= PLÁNIČKA Jaroslav
+[TRACE - Generator.zapisSkupinu()] - A14N0006P <= PLAŇKA David
+[TRACE - Generator.zapisSkupinu()] - A14N0007P <= PLANKTON Richard
+[TRACE - Generator.zapisSkupinu()] - A14N0008P <= PLÁŠŤ Rudolf
+[TRACE - Generator.zapisSkupinu()] - A14N0009P <= PLAT Michal
+[TRACE - Generator.zapisSkupinu()] - A14N0010P <= PLÁT Josef
+[TRACE - Generator.zapisSkupinu()] - A14N0011K <= PLATNO Václav
+[TRACE - Generator.zapisSkupinu()] - A14N0012P <= PLÁTNO Miloš
+[TRACE - Generator.zapisSkupinu()] - A14N0013P <= PLATNOST Alfréd
+[TRACE - Generator.zapisSkupinu()] - A14N0014P <= PLATNOST Karel
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Navazující' : 14
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Doktorský
+[TRACE - Generator.zapisSkupinu()] - A14P0001P <= BYSTROZRAKÝ Martin
+[TRACE - Generator.zapisSkupinu()] - A14P0002P <= DLOUHÝ Roman
+[TRACE - Generator.zapisSkupinu()] - A14P0003P <= ŠIROKÝ Stanislav
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Doktorský' : 3
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: Magisterský
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'Magisterský' : 0
+[INFO - Generator.zapisSkupinu()] - zapisuji skupinu: chybně zadáno
+[TRACE - Generator.zapisSkupinu()] - A14?xxxxP <= CHYBNÝ Dalimil (chybně zadáno)
+[TRACE - Generator.zapisSkupinu()] - A14Bxxxx? <= CHYBNÝ Čestmír (chybně zadáno)
+[TRACE - Generator.zapisSkupinu()] - A14Bxxxx? <= CHYBNÝ Břetislav (chybně zadáno)
+[TRACE - Generator.zapisSkupinu()] - A14?xxxx? <= CHYBNÝ Pravoslav (chybně zadáno)
+[TRACE - Generator.zapisSkupinu()] - A??xxxx? <= CHYBNÝ Radovan (chybně zadáno)
+[TRACE - Generator.zapisSkupinu()] - A?BxxxxP <= CHYBNÝ Drahoslav (chybně zadáno)
+[TRACE - Generator.zapisSkupinu()] - A?BxxxxP <= CHYBNÝ Vladislav (chybně zadáno)
+[TRACE - Generator.zapisSkupinu()] - A?BxxxxP <= CHYBNÝ Sebastian (chybně zadáno)
+[TRACE - Generator.zapisSkupinu()] - A?BxxxxP <= CHYBNÝ Slavomír (chybně zadáno)
+[INFO - Generator.zapisVysledky()] - pocet ve skupine 'chybně zadáno' : 9
+[INFO - Hlavni.main()] - Konec programu - vysledky jsou v souboru: vysledky.txt
